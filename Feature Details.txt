@@ -1,0 +1,50 @@
+The 4 statistical features we construct for each 5 second time window are as follows: 
+1. mean, 2. standard deviation, 3. maximum, and 4. minimum.
+
+
+24 EDA features, from feature 1 to 24: 
+Feature 1 to 4 are the 4 statistical features of the raw EDA data.
+Feature 5 to 8 are the 4 statistical features of the first derivative of the raw EDA data.
+Feature 9 to 12 are the 4 statistical features of the second derivative of the raw EDA data.
+
+Feature 13 to 16 are the 4 statistical features of the 1Hz wavelet coefficients of the raw EDA data.
+Feature 17 to 20 are the 4 statistical features of the 2Hz wavelet coefficients of the raw EDA data.
+Feature 21 to 24 are the 4 statistical features of the 4Hz wavelet coefficients of the raw EDA data.
+
+
+96 Acceleration features, from feature 25 to 120: 
+Feature 25 to 28 are the 4 statistical features of the 3-axis acceleration magnitude data.
+Feature 29 to 32 are the 4 statistical features of the first derivative of the 3-axis acceleration magnitude data.
+Feature 33 to 36 are the 4 statistical features of the second derivative of the 3-axis acceleration magnitude data.
+
+Feature 37 to 40 are the 4 statistical features of the x axis acceleration data.
+Feature 41 to 44 are the 4 statistical features of the first derivative of the x axis acceleration data.
+Feature 45 to 48 are the 4 statistical features of the second derivative of the x axis acceleration data.
+
+Feature 49 to 52 are the 4 statistical features of the y axis acceleration data.
+Feature 53 to 56 are the 4 statistical features of the first derivative of the y axis acceleration data.
+Feature 57 to 60 are the 4 statistical features of the second derivative of the y axis acceleration data.
+
+Feature 61 to 64 are the 4 statistical features of the z axis acceleration data.
+Feature 65 to 68 are the 4 statistical features of the first derivative of the z axis acceleration data.
+Feature 69 to 72 are the 4 statistical features of the second derivative of the z axis acceleration data.
+
+Feature 73 to 76 are the 4 statistical features of the 1Hz wavelet coefficients of the 3-axis acceleration magnitude data.
+Feature 77 to 80 are the 4 statistical features of the 2Hz wavelet coefficients of the 3-axis acceleration magnitude data.
+Feature 81 to 84 are the 4 statistical features of the 4Hz wavelet coefficients of the 3-axis acceleration magnitude data.
+
+Feature 85 to 88 are the 4 statistical features of the 1Hz wavelet coefficients of the x axis acceleration data.
+Feature 89 to 92 are the 4 statistical features of the 2Hz wavelet coefficients of the x axis acceleration data.
+Feature 93 to 96 are the 4 statistical features of the 4Hz wavelet coefficients of the x axis acceleration data.
+
+Feature 97 to 100 are the 4 statistical features of the 1Hz wavelet coefficients of the y axis acceleration data.
+Feature 101 to 104 are the 4 statistical features of the 2Hz wavelet coefficients of the y axis acceleration data.
+Feature 105 to 108 are the 4 statistical features of the 4Hz wavelet coefficients of the y axis acceleration data.
+
+Feature 109 to 112 are the 4 statistical features of the 1Hz wavelet coefficients of the z axis acceleration data.
+Feature 113 to 116 are the 4 statistical features of the 2Hz wavelet coefficients of the z axis acceleration data.
+Feature 117 to 120 are the 4 statistical features of the 4Hz wavelet coefficients of the z axis acceleration data.
+
+
+
+
