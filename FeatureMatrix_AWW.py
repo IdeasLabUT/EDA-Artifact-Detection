@@ -10,7 +10,7 @@ from statistics import mode
 from scipy import stats
 import pywt
 
-dataPath_AWW = 'AlanWalksWales/'
+dataPath_AWW = 'AlanWalksWales/Raw/'
 
 dataFiles = (dataPath_AWW+'2013_04_24_1hour_walk&chat&drink.csv',dataPath_AWW+ '2013_05_06 - 1hour_walking.csv',dataPath_AWW+ '2013_05_28_1hour_walking.csv',
     dataPath_AWW+ '2013_06_04_1hour_walking.csv',dataPath_AWW+ '2013_06_10_1hour_walking.csv',dataPath_AWW+ '2013_04_24_1hour_chat&drink_Pub.csv',
